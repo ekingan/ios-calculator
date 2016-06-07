@@ -14,6 +14,7 @@
 		C36116AC1D0651410050EFBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36116AA1D0651410050EFBC /* LaunchScreen.storyboard */; };
 		C36116B71D0651410050EFBC /* calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36116B61D0651410050EFBC /* calculatorTests.swift */; };
 		C36116C21D0651410050EFBC /* calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36116C11D0651410050EFBC /* calculatorUITests.swift */; };
+		C36116D01D0775950050EFBC /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C36116CF1D0775950050EFBC /* Minecraft.ttf */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C36116BD1D0651410050EFBC /* calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36116C11D0651410050EFBC /* calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorUITests.swift; sourceTree = "<group>"; };
 		C36116C31D0651410050EFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36116CF1D0775950050EFBC /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		C36116A01D0651410050EFBC /* calculator */ = {
 			isa = PBXGroup;
 			children = (
+				C36116CF1D0775950050EFBC /* Minecraft.ttf */,
 				C36116A11D0651410050EFBC /* AppDelegate.swift */,
 				C36116A31D0651410050EFBC /* ViewController.swift */,
 				C36116A51D0651410050EFBC /* Main.storyboard */,
@@ -230,6 +233,7 @@
 			files = (
 				C36116AC1D0651410050EFBC /* LaunchScreen.storyboard in Resources */,
 				C36116A91D0651410050EFBC /* Assets.xcassets in Resources */,
+				C36116D01D0775950050EFBC /* Minecraft.ttf in Resources */,
 				C36116A71D0651410050EFBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
