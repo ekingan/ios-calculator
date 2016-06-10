@@ -83,16 +83,16 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="G1a-Sx-DWh">
                                         <rect key="frame" x="0.0" y="119" width="217" height="58"/>
                                         <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFI-5V-zPA">
-                                                <rect key="frame" x="0.0" y="0.0" width="52" height="58"/>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFI-5V-zPA">
+                                                <rect key="frame" x="0.0" y="0.0" width="63" height="58"/>
                                                 <state key="normal" image="1"/>
                                             </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzs-Sw-a14">
-                                                <rect key="frame" x="72" y="0.0" width="57" height="58"/>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzs-Sw-a14">
+                                                <rect key="frame" x="83" y="0.0" width="57" height="58"/>
                                                 <state key="normal" image="2 "/>
                                             </button>
-                                            <button opaque="NO" tag="3" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAB-S0-fdZ">
-                                                <rect key="frame" x="149" y="0.0" width="68" height="58"/>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAB-S0-fdZ">
+                                                <rect key="frame" x="160" y="0.0" width="57" height="58"/>
                                                 <state key="normal" image="3 "/>
                                             </button>
                                         </subviews>
@@ -137,11 +137,11 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="t9p-tO-oJ4">
                                         <rect key="frame" x="0.0" y="293" width="217" height="57"/>
                                         <subviews>
-                                            <button opaque="NO" tag="7" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZS-MW-GRJ">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZS-MW-GRJ">
                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="57"/>
                                                 <state key="normal" image="c"/>
                                             </button>
-                                            <button opaque="NO" tag="8" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBn-rJ-lil">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBn-rJ-lil">
                                                 <rect key="frame" x="95" y="0.0" width="53" height="57"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="57" id="7bZ-4B-UEn"/>
@@ -149,7 +149,7 @@
                                                 </constraints>
                                                 <state key="normal" image="percent"/>
                                             </button>
-                                            <button opaque="NO" tag="8" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4D-ba-MIC">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4D-ba-MIC">
                                                 <rect key="frame" x="168" y="0.0" width="49" height="57"/>
                                                 <state key="normal" image="equals"/>
                                             </button>
@@ -157,8 +157,12 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4556" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4R-R2-D7O">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="4556" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4R-R2-D7O">
                                 <rect key="frame" x="193" y="84" width="214" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="214" id="4nE-Pu-dKs"/>
+                                    <constraint firstAttribute="height" constant="41" id="6sG-jN-tAT"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="30"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -167,6 +171,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="T4b-Um-zUJ" firstAttribute="centerY" secondItem="VoM-DB-zEN" secondAttribute="centerY" constant="60" id="6Zt-He-oaJ"/>
+                            <constraint firstItem="VoM-DB-zEN" firstAttribute="trailing" secondItem="R4R-R2-D7O" secondAttribute="trailing" constant="70" id="8Jx-Ha-Yna"/>
+                            <constraint firstItem="R4R-R2-D7O" firstAttribute="top" secondItem="VoM-DB-zEN" secondAttribute="top" constant="41" id="NsN-s8-PjH"/>
                             <constraint firstItem="VoM-DB-zEN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="O0O-f6-xMo"/>
                             <constraint firstItem="T4b-Um-zUJ" firstAttribute="centerX" secondItem="VoM-DB-zEN" secondAttribute="centerX" id="cy0-EF-leJ"/>
                             <constraint firstItem="VoM-DB-zEN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="obT-tJ-RCS"/>
