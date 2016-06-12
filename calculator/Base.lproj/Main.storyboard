@@ -102,21 +102,21 @@
                                         <rect key="frame" x="0.0" y="119" width="217" height="58"/>
                                         <subviews>
                                             <button opaque="NO" tag="1" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFI-5V-zPA">
-                                                <rect key="frame" x="0.0" y="0.0" width="52" height="58"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="63" height="58"/>
                                                 <state key="normal" image="1"/>
                                                 <connections>
                                                     <action selector="onNumberPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="esr-GK-yeK"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="2" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzs-Sw-a14">
-                                                <rect key="frame" x="72" y="0.0" width="57" height="58"/>
+                                                <rect key="frame" x="83" y="0.0" width="57" height="58"/>
                                                 <state key="normal" image="2 "/>
                                                 <connections>
                                                     <action selector="onNumberPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5S5-40-ckW"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" tag="3" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAB-S0-fdZ">
-                                                <rect key="frame" x="149" y="0.0" width="68" height="58"/>
+                                                <rect key="frame" x="160" y="0.0" width="57" height="58"/>
                                                 <state key="normal" image="3 "/>
                                                 <connections>
                                                     <action selector="onNumberPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DqV-4k-7NE"/>
@@ -182,14 +182,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="t9p-tO-oJ4">
                                         <rect key="frame" x="0.0" y="293" width="217" height="57"/>
                                         <subviews>
-                                            <button opaque="NO" tag="7" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZS-MW-GRJ">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZS-MW-GRJ">
                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="57"/>
                                                 <state key="normal" image="c"/>
                                                 <connections>
-                                                    <action selector="onClearPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eqo-yo-Ipc"/>
+                                                    <action selector="onClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QL4-aw-6Kp"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="8" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBn-rJ-lil">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBn-rJ-lil">
                                                 <rect key="frame" x="95" y="0.0" width="53" height="57"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="57" id="7bZ-4B-UEn"/>
@@ -200,7 +200,7 @@
                                                     <action selector="onPercentPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tpb-Ga-yhD"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="8" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4D-ba-MIC">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4D-ba-MIC">
                                                 <rect key="frame" x="168" y="0.0" width="49" height="57"/>
                                                 <state key="normal" image="equals"/>
                                                 <connections>
