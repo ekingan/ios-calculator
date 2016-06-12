@@ -88,9 +88,6 @@ class ViewController: UIViewController {
         playSound()
         
         if currentOperation != Operation.Empty {
-            //Run some math
-            rightValString = runningNumber
-            runningNumber = ""
             
             //If a user selects an operator but then selects another operator without first entering a number
             if runningNumber != "" {
